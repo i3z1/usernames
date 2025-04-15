@@ -1,17 +1,12 @@
 {
-  "dependencies": {
-    "document": "^0.4.7",
-    "express": "^5.1.0"
-  },
-  "name": "website",
-  "version": "1.0.0",
-  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
 }
